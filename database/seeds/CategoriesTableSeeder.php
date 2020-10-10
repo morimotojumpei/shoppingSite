@@ -24,7 +24,7 @@ class CategoriesTableSeeder extends Seeder
                 ];
             
                 $pants_price_categories = [
-                    '100円', '500円', '1000円','5000円','10000円',
+                    '100', '500', '1000','5000','10000',
                 ];
                 
                 // 先生にきく
@@ -40,7 +40,6 @@ class CategoriesTableSeeder extends Seeder
                                                     'description' => $pants_description_category,
                                                     'color' => $pants_color_category,
                                                     'price' => $pants_price_category,
-                                                    'major_category_name' => $major_category_name
                                                 ]);
 }}}}}}
 if ($major_category_name == 'ジーパン') {
@@ -54,7 +53,6 @@ if ($major_category_name == 'ジーパン') {
                             'description' => $pants_description_category,
                             'color' => $pants_color_category,
                             'price' => $pants_price_category,
-                            'major_category_name' => $major_category_name
                         ]);
 }}}}}}
 if ($major_category_name == 'ジーパン') {
@@ -68,7 +66,6 @@ if ($major_category_name == 'ジーパン') {
                             'description' => $pants_description_category,
                             'color' => $pants_color_category,
                             'price' => $pants_price_category,
-                            'major_category_name' => $major_category_name
                         ]);
 }}}}}}
 if ($major_category_name == 'ジーパン') {
@@ -82,7 +79,6 @@ if ($major_category_name == 'ジーパン') {
                             'description' => $pants_description_category,
                             'color' => $pants_color_category,
                             'price' => $pants_price_category,
-                            'major_category_name' => $major_category_name
                         ]);
 }}}}}}
 if ($major_category_name == 'チノパン') {
@@ -96,7 +92,6 @@ if ($major_category_name == 'チノパン') {
                             'description' => $pants_description_category,
                             'color' => $pants_color_category,
                             'price' => $pants_price_category,
-                            'major_category_name' => $major_category_name
                         ]);
 }}}}}}
 if ($major_category_name == 'チノパン') {
@@ -110,7 +105,6 @@ if ($major_category_name == 'チノパン') {
                             'description' => $pants_description_category,
                             'color' => $pants_color_category,
                             'price' => $pants_price_category,
-                            'major_category_name' => $major_category_name
                         ]);
 }}}}}}
 if ($major_category_name == 'チノパン') {
@@ -124,7 +118,6 @@ if ($major_category_name == 'チノパン') {
                             'description' => $pants_description_category,
                             'color' => $pants_color_category,
                             'price' => $pants_price_category,
-                            'major_category_name' => $major_category_name
                         ]);
 }}}}}}
 if ($major_category_name == 'チノパン') {
@@ -138,7 +131,6 @@ if ($major_category_name == 'チノパン') {
                             'description' => $pants_description_category,
                             'color' => $pants_color_category,
                             'price' => $pants_price_category,
-                            'major_category_name' => $major_category_name
                         ]);
 }}}}}}
 }}}

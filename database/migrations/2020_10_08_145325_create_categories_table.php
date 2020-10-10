@@ -17,7 +17,7 @@ class CreateCategoriesTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->text('color');
-            $table->string('major_category_name');
+            $table->text('description');
             $table->unsignedInteger('price');
             $table->timestamps();
         });
