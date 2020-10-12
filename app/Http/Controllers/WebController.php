@@ -9,7 +9,9 @@ class WebController extends Controller
 {
     public function index()
     {
-        $categories = Category::all()->sortBy('name');
+        $categories = Category::all();
+        echo "<pre>";var_export($categories->toArray());echo "</pre>";
+        exit;
 
         $major_category_names = Category::pluck('name')->unique();
 

@@ -1,4 +1,5 @@
-<div class="container">
+<div class="container">  
+    @dump($categories)
   @foreach ($major_category_names as $major_category_name)
       <h2>{{ $major_category_name }}</h2>
       @foreach ($categories as $category)
